@@ -57,6 +57,6 @@ const ourTeam = [
 
 let wrapper = document.getElementById('card-wrapper')
 for (let index = 0; index < ourTeam.length; index++) {
-    wrapper.innerHTML += `<div class= "col-5 card"><img class = "card-img-top"src="./img/${ourTeam[index].image}"></img><div class= "card-body"><h5 class="card-title">${ourTeam[index].name}</h5><p class="card-text">${ourTeam[index].role}<p></div></div>`
+    wrapper.innerHTML += `<div class= "col-4 card"><img class = "card-img-top"src="./img/${ourTeam[index].image}"></img><div class= "card-body"><h5 class="card-title">${ourTeam[index].name}</h5><p class="card-text">${ourTeam[index].role}<p></div></div>`
 }
 
