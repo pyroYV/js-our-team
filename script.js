@@ -57,12 +57,12 @@ const ourTeam = [
 
 let wrapper = document.getElementById('card-wrapper')
 for (let index = 0; index < ourTeam.length; index++) {
-    /* wrapper.innerHTML += `${ourTeam}.role ${ourTeam}.name ${ourTeam}.image` */
+    wrapper.innerHTML += `<div class= "col-6">nome è ${ourTeam[index].name},ruolo è ${ourTeam[index].role},stringa immagine è ${ourTeam[index].image}</div>`
+    
 }
 
 
-for (key in ourTeam){
+/* for (key in ourTeam){
     console.log(`nome è ${ourTeam[key].name},ruolo è ${ourTeam[key].role},stringa immagine è ${ourTeam[key].image}`)
-    wrapper.innerHTML += `<div class= "col-6">nome è ${ourTeam[key].name},ruolo è ${ourTeam[key].role},stringa immagine è ${ourTeam[key].image}</div>`
 
-}
+} */
