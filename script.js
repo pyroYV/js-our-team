@@ -58,4 +58,5 @@ const ourTeam = [
 
 for (key in ourTeam){
     console.log(`nome è ${ourTeam[key].name},ruolo è ${ourTeam[key].role},stringa immagine è ${ourTeam[key].image}`)
+    
 }
